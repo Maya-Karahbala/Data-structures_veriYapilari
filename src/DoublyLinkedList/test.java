@@ -23,6 +23,7 @@ public class test {
          myList.print();
           System.out.println("");
          myList.remove(1);
+          myList.addLast(1);
         System.out.println(myList.size());
       
        

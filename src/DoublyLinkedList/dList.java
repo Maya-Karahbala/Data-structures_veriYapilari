@@ -87,6 +87,7 @@ public class dList<AnyType> {
                     System.out.println("item not found");
                 }
             }
+            size--;
         }
     }
        public int size() {
