@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package HW;
-
+//-4x^56+18x^37+18x^19-18x^9-12
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
