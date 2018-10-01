@@ -1,1 +1,1 @@
-this is a recommended solution for the iven problem in the pdf file
+this is a recommended solution for the given problem in the pdf file
