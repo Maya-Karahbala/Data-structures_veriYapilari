@@ -1,30 +1,48 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package BinarySearchTree;
 
-//              50
-//           25       70
-//      20     28   60      77
-//   8     21          62      80
+
 public class test {
     public static void main(String[] args) {
-        BSTree tree=new BSTree();
-        tree.addNormal(50);
-         tree.addNormal(70);
-          tree.addNormal(60);
-         tree.addNormal(77);
-          tree.addNormal(62);
-           tree.addNormal(80);
-         ////////////
-          tree.addNormal(25);
-            tree.addNormal(20);
-         tree.addNormal(28);
-          tree.addNormal(8);
-           tree.addNormal(21);
-          tree.preOrder(tree.root);
-        
-    }
+      BSTree<Integer> tree = new BSTree<>();
+
+        /*
+                 20
+                /  \
+               6    28
+              / \    \
+             3   7    35
+            / \   \  
+           2   4   18
+         */
+ /*  tree.insert(20);
+   tree.insert(6);
+    tree.insert(28);
+    tree.insert(3);bst.test.main()
+    tree.insert(7);
+    tree.insert(35);
+    tree.insert(2);bst.test.main()
+    tree.insert(4);
+    tree.insert(18);*/
+ 
+        tree.insertRecursive(20);
+        tree.insertRecursive(6);
+        tree.insertRecursive(28);
+        tree.insertRecursive(28);
+        tree.insertRecursive(3);
+        tree.insertRecursive(7);
+        tree.insertRecursive(35);
+        tree.insertRecursive(2);
+        tree.insertRecursive(4);
+        tree.insertRecursive(18);
+        System.out.println("");
+        tree.preorder();
+        System.out.println(tree.searchRecursive(28));
+         System.out.println(tree.search(20));
+         System.out.println(tree.min());
+         System.out.println(tree.max());
+         System.out.println(tree.nodeCount());
+         System.out.println(tree.sum());
+
+}
 }

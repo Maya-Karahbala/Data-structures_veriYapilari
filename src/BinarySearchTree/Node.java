@@ -11,10 +11,11 @@ package BinarySearchTree;
  */
 public class Node<T extends Comparable<T>> {
     T data;
-    Node<T> leftChild;
-    Node<T> rightChild;
+    Node<T> left;
+    Node <T> right;
 
     public Node(T data) {
         this.data = data;
+       
     }
 }
